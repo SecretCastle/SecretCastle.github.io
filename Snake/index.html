@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link rel="stylesheet" href="./style/game.css" media="screen" title="no title">
+    </head>
+    <body>
+        <section class = "box">
+            <canvas id="screen" class="screen">
+                请更换高版本浏览器
+            </canvas>
+        </section>
+        <div class="score">
+            <span class="socre_t">计分板</span>
+            <input class="socre_c" id = "socre_c" value = "00" readonly></input>
+        </div>
+    </body>
+    <script type="text/javascript" src="./brain/snake.js"></script>
+    <script type="text/javascript">
+        init();
+    </script>
+</html>
