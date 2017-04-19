@@ -264,9 +264,9 @@ JDUI.style.themeColor = '#3E5266';
 JDUI.style.themeColor = '#ff6600';
 
 // test footer component
-var footer = new JDUI.instance.Footer({
-    hook: '#footer'
-});
+// var footer = new JDUI.instance.Footer({
+//     hook: '#footer'
+// });
 
 
 /**
