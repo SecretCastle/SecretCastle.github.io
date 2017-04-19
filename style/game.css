@@ -1,0 +1,52 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:320px) and (max-width:420px){
+    .box{
+        width: 320px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    .scoreList{
+        width: 310px;
+    }
+}
+.screen{
+    position: relative;
+}
+.score{
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    margin: 20px auto;
+    border-radius: 10px 10px 10px 10px / 5px 5px 5px 5px;
+    border:1px solid #000;
+    text-align: center;
+}
+.socre_t{
+    line-height: 34px;
+}
+.socre_c{
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    width: 96px;
+    text-align: center;
+}
+
+
+.scoreList{
+    width: 490px;
+    background: #ccc;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
